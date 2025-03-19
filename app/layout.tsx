@@ -2,7 +2,7 @@ import '@mantine/core/styles.css';
 
 import React from 'react';
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
-import { theme } from '../theme';
+import { theme } from '../theme/theme';
 
 export const metadata = {
   title: 'Mantine Next.js template',
@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }: { children: any }) {
+
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
